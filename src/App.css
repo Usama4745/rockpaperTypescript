@@ -1,7 +1,48 @@
 .App {
   text-align: center;
+  background-color: #333;
+  color: white;
+  min-height: 100vh;
+}
+.mainbody {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.App-header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #444;
 }
 
-button {
-  margin: 5px;
+.balance, .bet, .win {
+  font-size: 1.5rem;
+}
+
+.play-button {
+  background-color: black;
+  color: #d4af37;
+  padding: 15px 32px;
+  font-size: 1rem;
+  margin: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  border: 1px solid #d4af37;
+}
+
+.play-button:disabled {
+  opacity: 0.4;
+}
+
+.headingText{
+  color: #d4af37;
+  text-transform: uppercase;
 }
